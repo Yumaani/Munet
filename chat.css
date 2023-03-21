@@ -1,0 +1,80 @@
+body{
+    font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    font-size: 0.95em; 
+    margin:0;
+    padding:0;
+    background-color: #fff;
+}
+.box{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width: 400px;
+    padding:40px;
+    background:rgba(206, 204, 204,.8);
+    box-sizing:border-box;
+    box-shadow:0 15px 25px rgba(206, 204, 204, 0.5);
+    border-radius:10px;
+}
+.box .inputBox{
+    position:relative;
+}
+.box .inputBox input{
+    width:100%;
+    padding:10px 0;
+    font-size:16px;
+    color:#000;
+    letter-spacing: 1px;
+    margin-bottom:30px;
+    border:none;
+    border-bottom:1px solid #000;
+    outline:none;
+    background:transparent;
+}
+.box .inputBox label{
+    position:absolute;
+    top:0;
+    left:0;
+    letter-spacing: 1px;
+    padding:10px 0;
+    font-size:16px;
+    color:#000;
+    pointer-events:none;
+    transition:.5s;
+}
+.box .inputBox input:focus ~ label,
+.box .inputBox input:valid ~ label{
+    top:-18px;
+    left:0;
+    color:#454849;
+    font-size:12px;
+}
+.box input[type="submit"]{
+    background:transparent;
+    border:none;
+    outline:none;
+    color:#fff;
+    background:#454849;
+    padding:10px 20px;
+    cursor:pointer;
+    border-radius:5px;
+}
+.box .received-msg{
+    color:#fff;
+    background:rgba(0,0,0,.8);
+    box-sizing:border-box;
+    box-shadow:0 15px 25px rgba(69, 72, 73, 0.5);
+    border-radius:10px;
+}
+.return{
+    position: absolute;
+    top:10%;
+    left:10%;
+    transform:translate(-50%,-50%);
+    
+}
+.return ion-icon{
+    font-size:60px;
+    color:#000;
+}

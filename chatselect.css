@@ -1,0 +1,64 @@
+.return {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+
+}
+
+.return ion-icon {
+    font-size: 60px;
+    color: #000;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "montserrat", sans-serif;
+    background: rgba(206, 204, 204,.8);
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.task-list {
+    width: 400px;
+    padding: 40px;
+}
+
+.task-list h2 {
+    color: #434A54;
+    text-transform: uppercase;
+}
+
+.radio {
+    display: flex;
+    padding: 10px 0;
+    align-items: center;
+    cursor: pointer;
+}
+
+.radio input {
+    position: absolute;
+}
+
+.text {
+    font-size: 18px;
+    color: #434A54;
+}
+.submit input[type="submit"]{
+    background:transparent;
+    font-size: 18px;
+    border:none;
+    outline:none;
+    color:#434A54;
+    background:#f4f6f7;
+    padding:10px 20px;
+    cursor:pointer;
+    border-radius:5px;
+    text-transform: uppercase;
+}
